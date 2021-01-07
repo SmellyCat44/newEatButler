@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.shu.xj.ser.mapper.ManagerMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="ManagerResultMap" type="cn.edu.shu.xj.ser.entity.Student">
+        <result column="manager_id" property="managerId"/>
+        <result column="manager_name" property="managerPwd"/>
+        <result column="manager_pwd" property="managerName"/>
+    </resultMap>
+</mapper>

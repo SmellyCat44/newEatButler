@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.shu.xj.ser.mapper.ShopAccountMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="ShopAccountResultMap" type="cn.edu.shu.xj.ser.entity.ShopAccount">
+        <result column="o_id" property="oId"/>
+        <result column="shop_id" property="shopId"/>
+        <result column="s_income" property="sIncome"/>
+        <result column="s_time" property="sTime"/>
+    </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.shu.xj.ser.mapper.ShopMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="ShopResultMap" type="cn.edu.shu.xj.ser.entity.User">
+        <result column="shop_id" property="shopId"/>
+        <result column="shop_name" property="shopName"/>
+        <result column="shop_briefintro" property="shopBriefintro"/>
+        <result column="shop_addr" property="shopAddress"/>
+        <result column="shkper_name" property="shkperName"/>
+        <result column="shop_pwd" property="shopPwd"/>
+        <result column="shkper_tel" property="shkperTel"/>
+        <result column="shop_balance" property="shopBalance"/>
+        <result column="shop_portrait" property="shopPortrait"/>
+        <result column="shop_image" property="shopImage"/>
+        <result column="shop_average" property="shopAverage"/>
+        <result column="shop_rank" property="shopRank"/>
+    </resultMap>
+</mapper>

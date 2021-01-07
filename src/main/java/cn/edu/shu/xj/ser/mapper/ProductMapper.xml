@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.shu.xj.ser.mapper.ProductMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="ProductResultMap" type="cn.edu.shu.xj.ser.entity.Product">
+        <result column="p_id" property="productId"/>
+        <result column="type_id" property="typeId"/>
+        <result column="product_name" property="productName"/>
+        <result column="product_price" property="productPrice"/>
+        <result column="product_image" property="productImage"/>
+        <result column="shop_id" property="shopId"/>
+    </resultMap>
+</mapper>
